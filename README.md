@@ -17,7 +17,7 @@ Buka index.html di peramban yang biasa anda gunakan.
 | Bonus                          | Status            |
 | ------------------------------ | ----------------- |
 | Deployment                     | Selesai           |
-| Tampilan responsif             | Parsial           |
+| Tampilan responsif             | Selesai           |
 | Penggunaan Basis data atau CMS | Tidak Mengerjakan |
 | Kreativitas                    | Parsial           |
 
