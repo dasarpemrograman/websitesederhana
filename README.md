@@ -28,3 +28,8 @@ Buka index.html di peramban yang biasa anda gunakan.
 | Nama      | Muhammad Faiz Alfikrona |
 | NIM TPB   | 19623209                |
 | Klan      | J                       |
+
+# Link Deployment
+
+[Alfikrona.com](https://alfikrona.com)
+[Mirror](https://websitefaiz.pages.dev)
