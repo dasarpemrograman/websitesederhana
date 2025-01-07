@@ -1,81 +1,53 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Website sederhana Faiz</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Faiz Alfikrona</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
     <style>
-      body,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-family: Helvetica, Arial, sans-serif;
-      }
-      body {
-        background-color: black;
-        padding: 10%;
-      }
-
-      img {
-        max-width: 100%;
-        height: auto;
-      }
+        .hero-image {
+            filter: grayscale(100%);
+            transition: all 0.3s ease;
+        }
+        .hero-image:hover {
+            filter: grayscale(0%);
+        }
     </style>
-  </head>
-  <body>
-    <h1 class="w3-container w3-black w3-center">Personal Portofolio</h1>
-    <section class="w3-container w3-teal w3-center">
-      <h2>Foto diri</h2>
-      <img src="foto.avif" />
-      <p>Muhammad Faiz Alfikrona</p>
-    </section>
-    <section class="w3-container w3-grey">
-      <h2>Perkenalan Singkat</h2>
-      <p>
-        Mahasiswa Sistem dan Teknologi Informasi di Institut Teknologi Bandung
-      </p>
-    </section>
-    <section class="w3-container w3-red">
-      <h2>Minat dan Bakat</h2>
-      <ul class="w3-ul w3-card w3-margin-bottom">
-        <li>Programming</li>
-      </ul>
-    </section>
-    <section class="w3-container w3-yellow">
-      <h2>Proyek yang pernah dilakukan</h2>
-      <ul class="w3-ul w3-card w3-margin-bottom">
-        <li>Projek Daspro</li>
-        <li>
-          Projek
-          <a href="https://serenio.budibase.app/app/serenio#/main">Kommas</a>
-        </li>
-      </ul>
-    </section>
-    <section class="w3-container w3-blue">
-      <h2>Pencapaian yang pernah dicapai sebelumnya</h2>
-      <ul class="w3-ul w3-card w3-margin-bottom">
-        <li>Best Staff Human Resources The Sandbox by IEEE ITB SB</li>
-        <li>Best Staff Intrakampus AMI ITB 2023</li>
-        <li>Head of Public Relations BPA STEI-K 2023</li>
-      </ul>
-    </section>
-    <section class="w3-container w3-green">
-      <h2>Kemampuan yang dimiliki</h2>
-      <ul class="w3-card w3-ul w3-margin-bottom">
-        <li>Python</li>
-        <li>Haskell</li>
-      </ul>
-    </section>
-    <section class="w3-container w3-orange">
-      <h2>Contact me at</h2>
-      <ul class="w3-card w3-ul w3-margin-bottom">
-        <li><a href="https://instagram.com/alfikrona">Instagram</a></li>
-        <li><a href="https://linkedin.com/in/alfikrona">LinkedIn</a></li>
-      </ul>
-    </section>
-  </body>
+</head>
+<body class="bg-white min-h-screen flex items-center justify-center p-4">
+    <div class="max-w-3xl mx-auto bg-white">
+        <div class="flex flex-col md:flex-row items-center gap-8 md:gap-16">
+            <!-- Image Side -->
+            <div class="w-full md:w-1/2">
+                <img src="/foto.avif" alt="Muhammad Faiz Alfikrona" class="hero-image rounded-lg shadow-lg w-full">
+            </div>
+
+            <!-- Content Side -->
+            <div class="w-full md:w-1/2 space-y-6">
+                <h1 class="text-4xl font-bold">Muhammad Faiz Alfikrona</h1>
+                
+                <p class="text-xl text-gray-600">
+                    Information Systems and Technology Student at Institut Teknologi Bandung
+                </p>
+
+                <p class="text-gray-600">
+                    Passionate about bridging technology and business solutions through innovative approaches and creative problem-solving.
+                </p>
+
+                <div class="pt-4 space-x-4">
+                    <a href="https://linkedin.com/in/alfikrona" target="_blank" class="inline-flex items-center px-6 py-2 bg-black text-white hover:bg-gray-800 transition rounded">
+                        <i class="fab fa-linkedin mr-2"></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/dasarpemrograman" target="_blank" class="inline-flex items-center px-6 py-2 border border-black hover:bg-gray-50 transition rounded">
+                        <i class="fab fa-github mr-2"></i>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
