@@ -6,6 +6,7 @@
     <title>Muhammad Faiz Alfikrona</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iYmxhY2siLz48dGV4dCB4PSI1MCIgeT0iNzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSI2MCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkE8L3RleHQ+PC9zdmc+" />
     <style>
         .hero-image {
             filter: grayscale(100%);
@@ -14,6 +15,11 @@
         .hero-image:hover {
             filter: grayscale(0%);
         }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
     </style>
 </head>
 <body class="bg-white min-h-screen flex items-center justify-center p-4">
@@ -21,7 +27,7 @@
         <div class="flex flex-col md:flex-row items-center gap-8 md:gap-16">
             <!-- Image Side -->
             <div class="w-full md:w-1/2">
-                <img src="/foto.avif" alt="Muhammad Faiz Alfikrona" class="hero-image rounded-lg shadow-lg w-full">
+                <img src="foto.avif" alt="Muhammad Faiz Alfikrona" class="hero-image rounded-lg shadow-lg w-full">
             </div>
 
             <!-- Content Side -->
@@ -36,7 +42,7 @@
                     Passionate about bridging technology and business solutions through innovative approaches and creative problem-solving.
                 </p>
 
-                <div class="pt-4 space-x-4">
+                <div class="pt-4 button-container">
                     <a href="https://linkedin.com/in/alfikrona" target="_blank" class="inline-flex items-center px-6 py-2 bg-black text-white hover:bg-gray-800 transition rounded">
                         <i class="fab fa-linkedin mr-2"></i>
                         LinkedIn
@@ -44,6 +50,10 @@
                     <a href="https://github.com/dasarpemrograman" target="_blank" class="inline-flex items-center px-6 py-2 border border-black hover:bg-gray-50 transition rounded">
                         <i class="fab fa-github mr-2"></i>
                         GitHub
+                    </a>
+                    <a href="https://hi.alfikrona.com" class="inline-flex items-center px-6 py-2 bg-white border border-black hover:bg-gray-50 transition rounded">
+                        <i class="fas fa-tasks mr-2"></i>
+                        Current Projects
                     </a>
                 </div>
             </div>
